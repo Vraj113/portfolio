@@ -3,6 +3,8 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [display, setDisplay] = useState("opacity-0");
+  const [hamburgerMenu, setHamburgrMenu] = useState(false);
+   
   return (
     <>
       <nav className="h-fit py-2 bg-black text-gray-200 border-black border-b-2">
@@ -14,7 +16,12 @@ const Navbar = () => {
             </span>
             <span className="absolute -bottom-1 left-0 w-full  ease-in-out duration-300 h-0 group-hover:h-10 z-[10]  bg-[#ffe000] "></span>
           </p>
-          <div className="flex gap-x-7 text-lg font-semibold ">
+          <div className="flex flex-col md:hidden " onClick={()=>hamburgerMenu?setHamburgrMenu(false):setHamburgrMenu(true) }>
+            <span className={`h-1 w-9 my-1 bg-white origin-top-right  transition ` +(hamburgerMenu?'-rotate-45':'rotate-0') }></span>
+            <span className={`h-1 w-9  my-1 bg-white transition `+(hamburgerMenu?'opacity-0':'opacity-1')}></span>
+            <span className={`h-1 w-9 my-1 bg-white origin-bottom-right transition ` +(hamburgerMenu?'rotate-45':'rotate-0') }></span>
+          </div>
+          <div className=" hidden md:flex gap-x-7 text-lg font-semibold ">
             <div className="group relative ">
               <Link href={"/"}>About</Link>
               <div
