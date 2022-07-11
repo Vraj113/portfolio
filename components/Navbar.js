@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className="h-fit py-2 bg-black text-gray-200 border-black border-b-2">
         <div className="h-16 flex justify-between  md:justify-around items-center "> 
-          <p className="font-bold cursor-pointer px-2 text-3xl  ml-6 relative w-max one group text-gray-300 hover:text-white bg-black   transition duration-300  ">
+          <p className="font-bold cursor-pointer px-2 text-3xl  ml-6  relative w-max one group text-gray-300 hover:text-white bg-black   transition duration-300  ">
             <span className="z-20 relative">
             <Link href={'/'}>Vraj Solanki</Link>
               
