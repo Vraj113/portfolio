@@ -6,16 +6,16 @@ export default function Home() {
     <>
       {/* <Box />    */}
       <div className="   h-fit">
-        <div className="text-8xl  text-gray-900 font-bold pl-28 pt-28  w-fit max-w-[60%]">
+        <div className="md:text-8xl text-3xl  text-gray-900 font-bold pl-12 pt-12 md:pl-28 md:pt-28  w-fit max-w-[80%] md:max-w-[60%]">
           {`Hello, `}
           <br />
           {`I'm Vraj`}
           <br />
           {`Web Developer`}
         </div> 
-        <button className="relative mt-10 ml-28 text-xl inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-black  rounded hover:bg-purple-500 group">
+        <button className="relative mt-8 ml-12 md:ml-28 text-xl inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-black  rounded hover:bg-purple-500 group">
           <span className="w-48 h-48 rounded rotate-[-40deg] bg-[#ffe000]  absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-          <span className="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-white">
+          <span className="relative select-none w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-white">
             Contact Me
           </span>
         </button>

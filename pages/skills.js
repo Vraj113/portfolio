@@ -1,23 +1,26 @@
+import Image from "next/image"
 
     const Skills = () => {
       return (
         <>
-<div className="grid grid-cols-4 grid-rows-3 w-[89vw]  mx-auto h-[89vh]">
-        <div className="border-2">skills</div>
-        <div className="border-2">HTML</div>
-        <div className="border-2">CSS</div>
-        <div className="border-2">JavaScript</div>
-        <div className="border-2">React</div>
-        <div className="border-2">Next Js</div>
-        <div className="border-2">Express</div>
-        <div className="border-2">MongoDb</div>
-        <div className="border-2">Vercel</div>
-        <div className="border-2">Node Js</div>
-        <div className="border-2">Php</div>
-        <div className="border-2">Php</div>
+       
+
+<div className="flex flex-wrap justify-center bg-black   h-fit       text-white items-center">
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://reactjs.org/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/React.png" alt="React" width={150} height={150} objectFit={"contain"}  /></div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="http://nextjs.org/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Next_Js.svg" alt="Next Js" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://tailwindcss.com/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/tailwind.png" alt="Tailwind" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://getbootstrap.com/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Bootstrap.png" alt="Bootstrap" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://html.com/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Html.png" alt="HTML" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Css.png" alt="Css" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://www.javascript.com/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Javascript.png" alt="Javascript" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://www.php.net/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Php.png" alt="Php" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://mui.com/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Material_Ui.svg" alt="Material Ui" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://nodejs.org/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Node_Js.png" alt="Node Js" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://mern.js.org/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/MERN.png" alt="MERN Stack" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
+        <div className="border-2 border-white rounded-lg  m-5 md:w-[22vw] w-[30vw] h-[30vw] md:h-[22vw] overflow-hidden flex justify-center items-center transition"><a target={"_blank"}  rel="noreferrer" href="https://reactjs.org/"><div className="hover:scale-125 transition duration-500 ease-in-out p-5 smd:p-0"><Image src="/Html.png" alt="" width={150} height={150} objectFit={"contain"}  /> </div></a></div>
 </div>
         </>
-      )
+      )     
     }
     
     export default Skills
